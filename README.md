@@ -1,8 +1,6 @@
 # Sneaker-bot
 '''
-sharanga shopify bot v1.1
-a shopify bot (WIP)
-developed by @snivynGOD
+
 
 TO-DO
 - check if payment was successful or failed
