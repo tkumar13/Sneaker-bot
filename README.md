@@ -1,25 +1,4 @@
 # Sneaker-bot
-'''
-
-
-TO-DO
-- check if payment was successful or failed
-- MAYBE get auth token? doesn't appear to be needed though
-- MAYBE get captcha? not sure if needed (create captcha solving module if so)
-- add module for sites like KITH and DSMNY which use a different link for
-products (https://kith.com/collections/all/products.atom)
-- rewrite in C# with a GUI and multi-threading to support multiple tasks at once (coming soon)
-- PEP8 compliant
-
-EFFICIENCY TO-DO
-not insanely effective but it'll help
-
-- preload payment tokens with button click by user (i.e user can click a button
-to fetch payment token prior to the drop so resources aren't wasted during tasks
-trying to get the token) or get payment token asynchronously
-- preload gateways by specifying a sitelist, but also leaving the option for
-a user inputted shopify site to ensure as many sites are supported as possible
-'''
 
 from bs4 import BeautifulSoup as soup
 import requests
